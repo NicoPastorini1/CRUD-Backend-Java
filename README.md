@@ -31,15 +31,16 @@ Para instalar y ejecutar el proyecto en tu máquina local, sigue estos pasos:
 2. **Navega a la carpeta del proyecto**:
 
     ```bash
-    cd tu-repo
+    cd CRUD-Backend-Java
     ```
 
 3. **Configura la base de datos PostgreSQL**:
 
     - Asegúrate de tener PostgreSQL instalado y en ejecución.
     - Crea una base de datos para la API.
-    - Modifica el archivo `application.properties` con tus credenciales de PostgreSQL:
-
+    - Modifica el archivo `application.properties` con tus credenciales de PostgreSQL: <br>
+    <br>
+    
     ```properties
     spring.datasource.url=jdbc:postgresql://localhost:5432/tu_base_de_datos
     spring.datasource.username=tu_usuario
